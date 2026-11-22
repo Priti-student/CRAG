@@ -1,0 +1,24 @@
+# core
+langgraph
+langchain-core
+langchain-community
+faiss-cpu
+python-dotenv
+
+# free local stack (default)
+langchain-ollama
+langchain-huggingface
+sentence-transformers
+ddgs
+
+# Testing
+pytest
+
+# Document ingestion (for upcoming PDF support)
+langchain-text-splitters
+pypdf
+
+# optional paid/hosted backends (only if you switch to them in .env)
+# langchain-openai
+# langchain-groq
+# tavily-python
